@@ -1,0 +1,78 @@
+
+h2{
+    font-style: bold;
+    color: black;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.bar ul{
+
+    list-style-type: none;
+   background-color: lightgrey;
+padding: 20px;
+overflow: hidden;
+}
+.bar a{
+color: rgba(0, 0, 0, 0.833);
+display: block;
+text-decoration: none;
+text-align: center;
+padding: 20px;
+margin: 14px;
+
+}
+.bar a:hover{
+    background-color: lightcyan;
+
+}
+.bar li{
+    float: left;
+}
+
+img{
+  
+    width: 20%;
+    height: 10%;
+}
+footer{
+    text-align: center;
+}
+.last ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.last a{
+    display: block;
+    text-align: center;
+}
+.last li{
+    float: left;
+}
+.log a{
+    text-align: right;
+}
+.log ul{
+list-style-type: none;
+background-color:white;
+
+overflow: hidden;
+}
+.log a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: red;
+}
+.log li{
+    float: right;
+    padding: 0px;
+}
+.log button:hover{
+    background-color: rgb(13, 230, 230);
+    cursor: pointer;
+}
+.log button{
+    height: 40px;
+    background-color: white;
+    color: red;
+}
